@@ -1,4 +1,4 @@
 HTML5Starter
 ============
 
-HTML5 starteer project with all the dependencies.
+HTML5 starter project with all the dependencies.

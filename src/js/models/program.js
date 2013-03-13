@@ -1,6 +1,6 @@
 define(['underscore', 'backbone'], function(_, Backbone) {
 
-	// Our basic **Todo** model has `content`, `order`, and `done` attributes.
+	// Our basic program model has `title`, `order`, and `done` attributes.
 	var program = Backbone.Model.extend({
 
 		// Default attributes for the todo item.

@@ -5,7 +5,7 @@ define([
   // Pull in the Collection module from above
   'collections/epg'
 
-], function($, _, Backbone, projectsCollection){
+], function($, _, Backbone, epgCollection){
 	var ItemView = Backbone.View.extend({
 		tagName: 'li',
 		
@@ -16,7 +16,7 @@ define([
 		
 		initialize: function(){
 			_.bindAll(this, 'render', 'unrender', 'swap', 'remove');
-			
+			console.log(this.model);
 			// this.model.bind('change', this.render);
 			// this.model.bind('remove', this.unrender);
 		},
